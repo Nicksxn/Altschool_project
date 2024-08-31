@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+/* Navigation Styles */
+#signup ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 8px;
+}
+
+#signup li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#signup a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#signup a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Link Styles */
+.form p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+.form p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.form p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header img {
+        margin-bottom: 10px;
+    }
+}
